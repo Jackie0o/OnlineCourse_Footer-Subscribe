@@ -318,6 +318,10 @@ h6 {
           flex: 1 0 22%;
 }
 
+.info-block__form:not(:last-child) {
+  margin: 0 0 12px 0;
+}
+
 .info-block__text--sign-up {
   font-size: 10px;
   line-height: 150%;
@@ -448,6 +452,9 @@ h6 {
 
 .form-info {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .form-info input {
